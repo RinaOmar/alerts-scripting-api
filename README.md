@@ -21,11 +21,13 @@ if(oldDataStore && oldDataStore != element.textContent)
 ```
 #### Objects available in the Sandbox
 ###### element
-the DOM element attached to the control
+Returns a reference to the [DOM element](https://developer.mozilla.org/en-US/docs/Web/API/Element) attached to the control
 ###### oldDatStore
     
 ###### window
+Returns a reference to the [window object](https://developer.mozilla.org/en-US/docs/Web/API/Window) in which the element exist
 ###### console
+Returns a reference to the [console object](https://developer.mozilla.org/en-US/docs/Web/API/Console)
 #### Methods available in the Sandbox
 ###### $x
 #### Sandbox Return value object
