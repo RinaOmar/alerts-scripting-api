@@ -29,7 +29,9 @@ Returns a reference to the [window object](https://developer.mozilla.org/en-US/d
 ###### console
 Returns a reference to the [console object](https://developer.mozilla.org/en-US/docs/Web/API/Console)
 #### Methods available in the Sandbox
-###### $x
+###### $x(xpath,context)
+Returns an array of DOM elements that match the given XPath expression.   
+If context is not specified the window document will be used as default.
 #### Sandbox Return value object
 ###### newDataStore
 ###### message/messages
