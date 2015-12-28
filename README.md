@@ -8,9 +8,9 @@ It get as input the DOM [element](#element) which is attached to the control and
 
 The Sandbox returned value is and object containing: 
 
-1. [newDatStore](newDatStore) - state to save for the next run
-2. [message/messages](message/messages) - will be send as notification to the mobile device
-3. [slide/slides](slide/slides) object - updates the store slides status
+1. [newDataStore](#newDataStore) - state to save for the next run
+2. [message/messages](#message/messages) - will be send as notification to the mobile device
+3. [slide/slides](#slide/slides) object - updates the store slides status
 
 #### basic exmaple - Send notification if element text content has changed
 ```javascript
