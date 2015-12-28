@@ -35,7 +35,7 @@ Returns a reference to the [console object](https://developer.mozilla.org/en-US/
 ###### message/messages
 ###### slide/slides
 #### Debugging
-#### Examples 
-###### Working with tables
-###### Generating Slides 
-###### Notifications Deep linking 
+## Examples 
+#### Working with tables
+#### Generating Slides 
+#### Notifications Deep linking 
