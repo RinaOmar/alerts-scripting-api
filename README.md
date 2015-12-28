@@ -2,13 +2,12 @@
 Simple scripting api for creating custom notifications and slides data based on capriza zapps
 
 ## overview
-Creating script is availble when working in support mode. 
+Creating script is availble when working in support mode.    
 The Script will be evaluated in a [Sandbox](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Language_Bindings/Components.utils.evalInSandbox).  
-It get as input:  
+It get as input:    
 1. DOM [element](#element) which is attached to the control 
 2. [oldDataStore](#olddatastore) - an object which was persisted in the previous run named . 
-
-The Sandbox returned value is and object containing:  
+The Sandbox returned value is and object containing:     
 1. [newDataStore](#newdatastore) - state to save for the next run
 2. [message/messages](#messagemessages) - will be send as notification to the mobile device
 3. [slide/slides](#slideslides) object - updates the store slides status
