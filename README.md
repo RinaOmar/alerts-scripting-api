@@ -20,9 +20,10 @@ if(oldDataStore && oldDataStore != element.textContent)
 ({newDataStore:element.textContent ,message:message})
 ```
 #### Objects available in the Sandbox
-###### element - Returns a reference to the [DOM element](https://developer.mozilla.org/en-US/docs/Web/API/Element) attached to the control
+###### element 
+Returns a reference to the [DOM element](https://developer.mozilla.org/en-US/docs/Web/API/Element) attached to the control
 ###### oldDatStore
-    
+The object which was returned as newDataStore in the previous run of of the same script for the same user
 ###### window
 Returns a reference to the [window object](https://developer.mozilla.org/en-US/docs/Web/API/Window) in which the element exist
 ###### console
