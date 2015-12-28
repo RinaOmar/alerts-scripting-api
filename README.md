@@ -4,9 +4,10 @@ Simple scripting api for creating custom notifications and slides data based on 
 ## overview
 Creating script is availble when working in support mode.    
 The Script will be evaluated in a [Sandbox](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Language_Bindings/Components.utils.evalInSandbox).  
-It get as input:    
+The sandbox get as input the following objects:   
 1. DOM [element](#element) which is attached to the control  
 2. [oldDataStore](#olddatastore) - an object which was persisted in the previous run named   
+
 The Sandbox returned value is and object containing:  
 1. [newDataStore](#newdatastore) - state to save for the next run  
 2. [message/messages](#messagemessages) - will be send as notification to the mobile device  
