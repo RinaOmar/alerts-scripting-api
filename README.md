@@ -6,6 +6,7 @@ Creating script is availble when working in support mode.
 The Script will be evaluated in a [Sandbox](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Language_Bindings/Components.utils.evalInSandbox). 
 
 It get as input:
+
 1. DOM [element](#element) which is attached to the control 
 2. [oldDataStore](#olddatastore) - an object which was persisted in the previous run named . 
 
