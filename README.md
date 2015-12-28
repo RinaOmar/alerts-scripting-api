@@ -36,6 +36,6 @@ Returns a reference to the [console object](https://developer.mozilla.org/en-US/
 ###### slide/slides
 #### Debugging
 #### Examples 
-###### Working with table
-###### Adding slides info
-###### Deep linking 
+###### Working with tables
+###### Generating Slides 
+###### Notifications Deep linking 
