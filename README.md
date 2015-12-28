@@ -37,6 +37,7 @@ If context is not specified the window document will be used as default.
 ###### message/messages
 ###### slide/slides
 #### Debugging
+Open firefox wen console, switch to the debugger tab. Add [debugger](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger) statment to your script and click on the evaluate sceript button.
 ## Examples 
 #### Working with tables
 #### Generating Slides 
