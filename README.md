@@ -24,6 +24,6 @@ if(oldDataStore && oldDataStore != element.textContent)
 #### Sandbox Return value object
 #### Debugging
 #### Examples 
-####### Working with table
-####### Adding slides info
-####### Deep linking 
+###### Working with table
+###### Adding slides info
+###### Deep linking 
