@@ -4,7 +4,11 @@ Simple scripting api for creating custom notifications and slides data based on 
 ## overview
 Creating script is availble when working in support mode. 
 The Script will be evaluated in a [Sandbox](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Language_Bindings/Components.utils.evalInSandbox). 
-It get as input the DOM [element](#element) which is attached to the control and an object which it persisted in the previous run named [oldDataStore](#oldDataStore). 
+
+It get as input: 
+
+1. DOM [element](#element) which is attached to the control 
+2. [oldDataStore](#oldDataStore) - an object which was persisted in the previous run named . 
 
 The Sandbox returned value is and object containing: 
 
@@ -21,7 +25,9 @@ if(oldDataStore && oldDataStore != element.textContent)
 ```
 #### Objects available in the Sandbox
 ###### element
+the DOM element attached to the control
 ###### oldDatStore
+    
 ###### window
 ###### console
 #### Methods available in the Sandbox
