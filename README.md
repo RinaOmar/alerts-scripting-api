@@ -34,10 +34,11 @@ Returns an array of DOM elements that match the given XPath expression.
 If context is not specified the window document will be used as default.
 #### Sandbox Return value object
 ###### newDataStore
+new state per user that will be saved and used as oldDataStore in the next run of that user. could be either primitive type like String/Number or an Object/Array. Must be serializable
 ###### message/messages
 ###### slide/slides
 #### Debugging
-Open firefox wen console, switch to the debugger tab. Add [debugger](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger) statment to your script and click on the evaluate sceript button.
+Open firefox wen console, switch to the debugger tab. Add [debugger](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger) statment to your script, and click on the evaluate sceript button.
 ## Examples 
 #### Working with tables
 #### Generating Slides 
