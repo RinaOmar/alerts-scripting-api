@@ -1,4 +1,4 @@
-var newDataStore = {}, messages = [];
+var newDataStore = {}, messages = []; 
 var trs = element.querySelectorAll("tr.even,tr.odd");
 
 Array.prototype.slice.call(trs).forEach(tr => {
