@@ -36,7 +36,14 @@ If context is not specified the window document will be used as default.
 ###### newDataStore
 new state per user that will be saved and used as oldDataStore in the next run of that user. could be either primitive type like String/Number or an Object/Array. Must be serializable
 ###### message/messages
+Script can either send single notification using message string or multiple notification useing messages array. 
 ###### slide/slides
+Script generate a slide with single label & value or an array of label & values to be set in a single slide.
+The format of a single slide object is 
+```javascript
+{type:"label", label:"Tomorrow's Forecast", value:"52°/38°"}
+```
+
 #### Debugging
 Open firefox wen console, switch to the debugger tab. Add [debugger](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger) statment to your script, and click on the evaluate sceript button.
 ## Examples 
