@@ -42,7 +42,7 @@ Notification can be customized using an detailed object instead of string or arr
 ```javascript
 {title:"Tomorrow's Forecast", subTitle:"52°/38° Scattered Showers ", paramName:"" , paramValue:""}
 ```
-- title (optional) - notification title 
+- title (optional) - notification title. alerts name will be used if no title is specified.
 - subTitle - notification subTitle
 - paramName (optional) - param name in the startUrl for deep linking support
 - paramvalue (optional)- param value to be place in the url instead of the param name for deep linking support
