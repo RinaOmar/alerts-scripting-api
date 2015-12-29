@@ -55,7 +55,7 @@ The format of a single slide object is:
 ```
 
 #### Debugging
-Open firefox wen console, switch to the debugger tab. Add [debugger](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger) statment to your script, and click on the evaluate sceript button.
+Open firefox wen console, switch to the debugger tab. Add [debugger;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger) statment to your script, and click on the evaluate script button.
 ## Examples 
 #### Working with tables
 #### Generating Slides 
