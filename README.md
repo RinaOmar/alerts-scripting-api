@@ -40,12 +40,12 @@ Script can either send single notification using message string or multiple noti
 Each string will send a single notification to the user's devices.  
 Notification can be customized using an detailed object instead of string or array of strings. the object format is:
 ```javascript
-{title:"Tomorrow's Forecast", subTitle:"Tomorrow's Forecast", paramName:"" , paramValue:""}
+{title:"Tomorrow's Forecast", subTitle:"52°/38° Scattered Showers ", paramName:"" , paramValue:""}
 ```
-1. title(optional)      - notification title 
-2. subTitle             - notification subTitle
-3. paramName (optional) -
-4. paramvalue (optional)-
+- title (optional) - notification title 
+- subTitle - notification subTitle
+- paramName (optional) - param name in the startUrl for deep linking support
+- paramvalue (optional)- param value to be place in the url instead of the param name for deep linking support
 
 ###### slide/slides
 Script generate a slide with single label & value or an array of label & values to be set in a single slide.
