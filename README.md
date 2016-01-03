@@ -17,7 +17,7 @@ The Sandbox returned value is and object containing:
 var message;
 if(oldDataStore && oldDataStore != element.textContent)
   message = `data has changed from ${oldDataStore} to ${newDataStore}`;
-({newDataStore:element.textContent ,message:message})
+({newDataStore:element.textContent ,message:message});
 ```
 #### Objects available in the Sandbox
 ###### element 
